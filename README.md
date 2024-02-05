@@ -1,4 +1,38 @@
-<div align="center">
+Project Title: Figma Clone with Live Interaction
+
+\*Overview
+This project is a Figma clone built using TypeScript, Next.js, and React. It allows users to create, edit, and collaborate on design projects in real-time, providing a seamless and interactive experience.
+
+\*Features
+-Live Interaction: Real-time collaboration for design projects.
+-Responsive Design: Ensure a smooth user experience across various devices.
+-TypeScript: Type safety for enhanced development.
+
+\*Technologies Used
+-TypeScript
+-Next.js
+-React
+-Liveblock.io for real-time collaboration.
+
+\*Clone the repository:
+
+\*Navigate to the project directory:
+cd figma-ts
+
+\*Install dependencies:
+npm install
+
+\*Running the Application
+npm run dev
+
+Open your browser and go to http://localhost:3000 to access the application.
+
+Contact
+For any inquiries, please contact your-email@example.com.
+
+Happy designing!
+
+<!-- <div align="center">
   <br />
     <a href="https://youtu.be/IxqC6I0U64s" target="_blank">
       <img src="https://github.com/JavaScript-Mastery-Pro/figma-ts/assets/151519281/e03dc22d-0f45-464b-9dc3-f01f07906bee" alt="Project Banner">
@@ -30,7 +64,7 @@
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
 
 If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
@@ -77,7 +111,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Deleting, Scaling, Moving, Clearing, Exporting Canvas**: Offers a range of functions for managing design elements, including deletion, scaling, moving, clearing the canvas, and exporting the final design for external use.
 
-and many more, including code architecture, advanced react hooks, and reusability 
+and many more, including code architecture, advanced react hooks, and reusability
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -248,4 +282,4 @@ And if you're hungry for more than just a course and want to understand how we l
 <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
 </a>
 
-#
+# -->

@@ -21,12 +21,7 @@ export const PinnedThread = ({ thread, onFocus, ...props }: Props) => {
 
   const [minimized, setMinimized] = useState(startMinimized);
 
-  /**
-   * memoize the result of this function so that it doesn't change on every render but only when the thread changes
-   * Memo is used to optimize performance and avoid unnecessary re-renders.
-   *
-   * useMemo: https://react.dev/reference/react/useMemo
-   */
+
 
   const memoizedContent = useMemo(
     () => (

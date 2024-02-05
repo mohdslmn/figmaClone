@@ -18,11 +18,7 @@ const NewThreadCursor = ({ display }: { display: boolean }) => {
       const canvas = document.getElementById("canvas");
 
       if (canvas) {
-        /**
-         * getBoundingClientRect returns the size of an element and its position relative to the viewport
-         *
-         * getBoundingClientRect: https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
-         */
+      
         const canvasRect = canvas.getBoundingClientRect();
 
         // check if the mouse is outside the canvas
