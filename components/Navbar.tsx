@@ -17,7 +17,7 @@ const Navbar = ({ activeElement, imageInputRef, handleImageUpload, handleActiveE
     (Array.isArray(value) && value.some((val) => val?.value === activeElement?.value));
 
   return (
-    <nav className="flex select-none items-center justify-between gap-4 bg-slate-700 px-5 text-white">
+    <nav className="flex select-none items-center justify-between gap-4 bg-[#112132] px-5 text-white">
       <Image src="/assets/logoN2.png" alt="FrameFroge Logo" width={138} height={60} />
 
       <ul className="flex flex-row">
@@ -32,7 +32,7 @@ const Navbar = ({ activeElement, imageInputRef, handleImageUpload, handleActiveE
             ${isActive(item.value) ? "bg-[#0BFFFF]" : "hover:bg-primary-grey-700"}
             `}
           >
-            {/* If value is an array means it's a nav element with sub options i.e., dropdown */}
+            
             {Array.isArray(item.value) ? (
               <ShapesMenu
                 item={item}
