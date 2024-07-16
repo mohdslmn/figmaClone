@@ -30,7 +30,7 @@ const ShapesMenu = ({
           </Button>
         </DropdownMenuTrigger>
 
-        <DropdownMenuContent className="mt-5 flex flex-col gap-y-1 border-none bg-primary-black py-4 text-white">
+        <DropdownMenuContent className="mt-5 flex flex-col gap-y-1 border-none bg-slate-700 py-4 text-white">
           {item.value.map((elem) => (
             <Button
               key={elem?.name}
@@ -38,7 +38,7 @@ const ShapesMenu = ({
                 handleActiveElement(elem);
               }}
               className={`flex h-fit justify-between gap-10 rounded-none px-5 py-3 focus:border-none ${
-                activeElement.value === elem?.value ? "bg-primary-green" : "hover:bg-primary-grey-200"
+                activeElement.value === elem?.value ? "bg-[#0BFFFF]" : "hover:bg-slate-400"
               }`}
             >
               <div className="group flex items-center gap-2">
